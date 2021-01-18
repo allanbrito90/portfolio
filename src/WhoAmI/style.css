@@ -1,0 +1,16 @@
+.box-container{
+    margin-top: 150px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-container-title{
+    text-align: left;
+}
+
+.box-container-content{
+    text-align: justify;
+}
