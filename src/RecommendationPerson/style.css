@@ -1,0 +1,31 @@
+.person-container{
+    display: flex;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.direction1{
+    flex-direction: row;
+}
+
+.direction2{
+    flex-direction: row-reverse;
+}
+
+.image-person-photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.recommendation-content{
+    width: 450px;
+}
+
+.text-recommendation{
+    word-wrap: break-word;
+}

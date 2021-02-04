@@ -1,4 +1,4 @@
-.box-container{
+.recommendation-container{
     margin-top: 50px;
     width: 600px;
     display: flex;
@@ -7,11 +7,7 @@
     margin-right: auto;
 }
 
-.box-container-title{
-    text-align: left;
-}
-
-.box-container-content{
-    text-align: justify;
-    line-height: 2;
+.recommendation-person-container{
+    display: flex;
+    flex-direction: column;
 }
