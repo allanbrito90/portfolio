@@ -22,7 +22,7 @@
     color:grey;
 }
 
-@media (max-width: 5px){
+@media (max-width: 550px){
     .header-container{
         display: block;
         height: 150px;

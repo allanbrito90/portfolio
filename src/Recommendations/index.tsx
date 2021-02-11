@@ -3,7 +3,7 @@ import './style.css';
 
 function Recommendations(){
     return (
-        <div id="recommendations" className="box-container">
+        <div id="recommendations" className="recommendation-container">
             <h1>Recommendations</h1>
             <RecommendationPerson 
             direction="1"

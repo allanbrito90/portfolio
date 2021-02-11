@@ -30,11 +30,12 @@
     word-wrap: break-word;
 }
 
-@media (max-width: 675px){
+@media (max-width: 550px){
 
     .person-container{
         flex-direction: column;
         width: auto;
+        margin: 10px;
     }
 
     .image-person-photo{
@@ -45,6 +46,10 @@
         margin-right: auto;
         margin-left: auto;
         justify-content: center;
+    }
+
+    .recommendation-content{
+        width: auto;
     }
 
 }

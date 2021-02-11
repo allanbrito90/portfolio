@@ -23,7 +23,12 @@
 @media (max-width: 675px){
 
     .projects-container-back{
-        height: 3815px;
+        height: 3100px;
+    }
+
+    .projects-container{
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
 }

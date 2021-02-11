@@ -32,12 +32,6 @@ function Projects(){
                         link=""
                     />
                     <ProjectCard 
-                        image="https://www.getbidbar.com/assets/blog/programming_topics.jpg"
-                        titulo="Calculator" 
-                        conteudo="Uma simples calculadora para testar meus conhecimentos em JavaScript. Clique abaixo para ter acesso ao código fonte e fazer o download."
-                        link=""
-                    />
-                    <ProjectCard 
                         image={DsDelivery}
                         titulo="DS Delivery" 
                         conteudo="A project made in the second edition of Dev Superior Week, a free week building a full delivery app system with a mobile and online database. Click down below for more informations."
