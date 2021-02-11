@@ -5,6 +5,7 @@ import WhoAmI from "../WhoAmI";
 import Recommendations from "../Recommendations";
 import FotoPrincipal from './Allan_Brito_Capa.jpeg';
 import './style.css';
+import ContactMe from "../ContactMe";
 
 function Home(){
     return(
@@ -26,6 +27,7 @@ function Home(){
                 <WhoAmI />
                 <Projects />
                 <Recommendations />
+                <ContactMe />
             </div>
         </div>
 

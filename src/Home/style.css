@@ -31,6 +31,7 @@
     font-size: 72px;
     font-weight: 1000;
     margin-left: 20px;
+    color: white;
 }
 
 .entrada-subtitle{
@@ -38,6 +39,7 @@
     justify-content: center;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
 /* The picture must have a rounded  */
@@ -45,4 +47,29 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
+}
+
+
+.texto-claro{
+    color: #FFF;
+}
+
+.texto-escuro{
+    color: #000;
+}
+
+@media (max-width: 800px){
+
+    .entrada-container{
+        flex-direction: column;
+    }
+
+    .entrada-content{
+        color: black;
+    }
+    
+    .entrada-subtitle{
+        color: black;
+    }
+
 }

@@ -5,6 +5,10 @@
     height: 40px;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .header-content{
@@ -12,4 +16,15 @@
     text-decoration: none;
     color: white;
     padding-top: 13;
+}
+
+.header-content:hover{
+    color:grey;
+}
+
+@media (max-width: 5px){
+    .header-container{
+        display: block;
+        height: 150px;
+    }
 }

@@ -4,13 +4,15 @@ type Props = {
     image: string;
     titulo: String;
     conteudo: String;
+    link: string;
 }
 
 
-function ProjectCard({image, titulo, conteudo}:Props){
+function ProjectCard({image, titulo, conteudo, link}:Props){
 
 
     return (
+        <a href={link} target="_blank" className="card-button texto-escuro">
         <div className="card-container">
             <img 
                 className="image-project" 
@@ -22,9 +24,10 @@ function ProjectCard({image, titulo, conteudo}:Props){
                 {conteudo}
             </p>
             <button className="card-container-button">
-                Mais informações
+                <a className="card-button texto-claro" href={link} target="_blank">More Information</a> 
             </button>
         </div>
+        </a>
     )
 }
 

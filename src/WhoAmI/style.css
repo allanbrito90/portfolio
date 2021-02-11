@@ -1,4 +1,5 @@
 .box-container{
+    padding-top: 20px;
     margin-top: 50px;
     width: 600px;
     display: flex;
@@ -14,4 +15,12 @@
 .box-container-content{
     text-align: justify;
     line-height: 2;
+}
+
+@media (max-width: 675px){
+
+    .box-container{
+        width: auto;
+    }
+    
 }

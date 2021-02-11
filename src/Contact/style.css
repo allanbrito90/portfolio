@@ -1,0 +1,21 @@
+.contact-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-logo{
+    width: 25px;
+    height: 25px;
+}
+
+.contact-content{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+

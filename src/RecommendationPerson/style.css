@@ -29,3 +29,22 @@
 .text-recommendation{
     word-wrap: break-word;
 }
+
+@media (max-width: 675px){
+
+    .person-container{
+        flex-direction: column;
+        width: auto;
+    }
+
+    .image-person-photo{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+    }
+
+}
