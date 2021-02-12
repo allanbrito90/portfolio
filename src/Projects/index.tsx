@@ -29,7 +29,7 @@ function Projects(){
                         image={Portfolio}
                         titulo="Portfolio" 
                         conteudo="This website was also elaborated with some techniques and tecnologies. I could use some website makers but I prefered to use technologies that a could show my capacity. Click down below for more informations."
-                        link=""
+                        link="https://github.com/allanbrito90/portfolio"
                     />
                     <ProjectCard 
                         image={DsDelivery}
