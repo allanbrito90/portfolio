@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from "react";
-import Header from "../Header";
+import Header2 from "../Header2";
 import Projects from "../Projects";
 import WhoAmI from "../WhoAmI";
 import Recommendations from "../Recommendations";
 import FotoPrincipal from './Allan_Brito_Capa.jpeg';
 import './style.css';
 import ContactMe from "../ContactMe";
+import Header from "../Header";
 
 function Home(){
     return(
-        <div>
+        <div id="home">
             <Header />
+            <Header2 />
             <div className="container-principal fundo">                
                 <div className="entrada-container">
                     <img className="image-logo" src={FotoPrincipal} alt="Allan_Brito_Foto"/>

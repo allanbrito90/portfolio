@@ -1,7 +1,7 @@
 import './style.css';
 function Header(){
     return(
-        <div id="home">
+        <div>
             <nav className="header-container">
                <li><a href="#home" className="header-content">Home</a></li>
                <li><a href="#whoami" className="header-content">Who Am I?</a></li>

@@ -1,14 +1,23 @@
-.header-container{
+.header2-container{
     background-color: black;
-    margin-left: 0;
+    margin-left: -40px;
     margin-right: auto;
     height: 40px;
     display: flex;
     align-items: center;
     position: fixed;
     top: 0;
-    width: 100%;
     z-index: 1;
+}
+
+.menu-header2 ul{
+    background-color: black;
+    margin-top: 150px;
+    display: none;
+}
+
+.menu-header2:hover ul{
+    display: block;
 }
 
 .header-content{
@@ -18,12 +27,10 @@
     padding-top: 13;
 }
 
-.header-content:hover{
-    color:grey;
-}
 
-@media (max-width: 550px){
-    .header-container{
-        display: none;
+
+@media (min-width:551px){
+    .header2-container{
+        display:none;
     }
 }
