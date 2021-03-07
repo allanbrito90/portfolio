@@ -30,9 +30,10 @@
     border-radius: 10px;
 }
 
-p{
+.card-content{
     text-align: justify;
     line-height: 2;
+    height: 320px;
 }
 
 .card-button{

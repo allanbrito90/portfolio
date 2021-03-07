@@ -12,22 +12,20 @@ function ProjectCard({image, titulo, conteudo, link}:Props){
 
 
     return (
-        <a href={link} target="_blank" className="card-button texto-escuro">
         <div className="card-container">
             <img 
                 className="image-project" 
                 src={image} 
                 alt="img_project"
             />
-            <h1>{titulo}</h1>
-            <p>
+            <h2>{titulo}</h2>
+            <p className="card-content">
                 {conteudo}
             </p>
-            <button className="card-container-button">
-                <a className="card-button texto-claro" href={link} target="_blank">More Information</a> 
+            <button type="button" className="btn btn-dark">
+                Teste
             </button>
         </div>
-        </a>
     )
 }
 
