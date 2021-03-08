@@ -1,8 +1,8 @@
 .projects-container-back{
-    background-color: gray;
+    background-color: #EEE;
     margin-left: 0;
     margin-right: auto;
-    height: 2090px;
+    height: 2140px;
 }
 
 .projects-container{
@@ -23,7 +23,7 @@
 @media (max-width: 675px){
 
     .projects-container-back{
-        height: 3100px;
+        height: 3450px;
     }
 
     .projects-container{

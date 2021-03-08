@@ -1,5 +1,7 @@
 import './style.css';
 
+import { Button } from 'reactstrap';
+
 type Props = {
     image: string;
     titulo: String;
@@ -22,9 +24,9 @@ function ProjectCard({image, titulo, conteudo, link}:Props){
             <p className="card-content">
                 {conteudo}
             </p>
-            <button type="button" className="btn btn-dark">
-                Teste
-            </button>
+            <a href={link} target="_blank">
+                <Button color="secondary">More Info</Button>
+            </a>
         </div>
     )
 }

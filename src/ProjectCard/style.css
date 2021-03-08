@@ -20,7 +20,7 @@
 .image-project{
     border-radius: 50px 50px 0px 0px;
     height: 150px;
-    width: 290px;
+    width: 250px;
 }
 
 .card-container-button{
@@ -33,9 +33,5 @@
 .card-content{
     text-align: justify;
     line-height: 2;
-    height: 320px;
-}
-
-.card-button{
-    text-decoration: none;
+    height: 370px;
 }
