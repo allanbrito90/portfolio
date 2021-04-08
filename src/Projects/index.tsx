@@ -16,7 +16,7 @@ function Projects(){
                     <ProjectCard 
                         image={HouseController}
                         titulo="House Controller"
-                        conteudo="A residencial finance control program to have all your expenses one click away. In this same program, was created a goal module to you to achieve your dreams. Click down below for more informations, ot know what tecnologies were used and clone the repository. Available in English and Portuguese (PT-BR)."
+                        conteudo="A residencial finance control program to have all your expenses one click away. In this same program, was created a goal module to you to achieve your dreams. Click down below for more informations, at know what tecnologies were used and clone the repository. Available in English and Portuguese (PT-BR)."
                         link="https://github.com/allanbrito90/houseController"
                     />
                     <ProjectCard 

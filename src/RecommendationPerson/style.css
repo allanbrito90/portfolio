@@ -28,6 +28,7 @@
 
 .text-recommendation{
     word-wrap: break-word;
+    font-style: italic;
 }
 
 @media (max-width: 550px){

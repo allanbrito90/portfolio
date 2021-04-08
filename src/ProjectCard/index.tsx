@@ -20,7 +20,7 @@ function ProjectCard({image, titulo, conteudo, link}:Props){
                 src={image} 
                 alt="img_project"
             />
-            <h2>{titulo}</h2>
+            <h4>{titulo}</h4>
             <p className="card-content">
                 {conteudo}
             </p>

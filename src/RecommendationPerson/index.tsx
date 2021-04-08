@@ -14,7 +14,7 @@ function RecommendationPerson ({direction, personPhoto, textRecommendation, auth
             <div className="recommendation-content">
                 <p className="text-recommendation" >{textRecommendation}</p>
                 <br/><br/>
-                <p className="text-recommendation" >{author}</p>
+                <p>{author}</p>
             </div>
         </div>
     )
